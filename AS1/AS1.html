@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Make a choropleth map, part 2: add interactivity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" /><link rel='stylesheet' href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js'></script>
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css' type='text/css' />
+
+<div id="map"></div>
+
+    <div class="map-overlay" id="features">
+      <h2>Scottish Index of Multiple Deprivation (SIMD) of Edinburgh</h2>
+      <div id="pd"><p>Hover over the area you want to know about!</p></div>
+    </div>
+
+    <div class="map-overlay" id="legend">    <div>&#8592; more deprived</div>
+  </div>
+  <div class="footer">
+    <span style="font-size: 15pt; padding-left:10px"> 2454581Z 2022</span>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+  </div>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+<!-- partial -->
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
